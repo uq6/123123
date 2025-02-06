@@ -1,4 +1,4 @@
-if game.PlaceId == '292439477' then
+if game.PlaceId == 292439477 then
    return loadstring(game:HttpGetAsync('https://github.com/uq6/123123/raw/refs/heads/main/pf'))()
 end
 
