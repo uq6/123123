@@ -3,7 +3,7 @@ getgenv().FontSource = game:HttpGet(
 );
 
 if game.PlaceId == 292439477 then
-   return loadstring(game:HttpGetAsync('https://github.com/uq6/123123/raw/refs/heads/main/pf'))()
+   return run_on_actor(getactors()[1], game:HttpGetAsync('https://github.com/uq6/123123/raw/refs/heads/main/pf'))
 end
 
 if getgenv().Bypass then
