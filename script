@@ -2,6 +2,8 @@ getgenv().FontSource = game:HttpGet(
     'https://3007.filemail.com/api/file/get?filekey=pnuYSNE4XdjcZvV5R9jEPOaVMN1wTcfG2WeFof40yhbydsZ4Gnzaoi9OsCWcZozKJL07WyIPzA&pk_vid=7271607720e35eca1738746369d1743a'
 );
 
+writefile('key.txt',getgenv().Key)
+
 if game.PlaceId == 292439477 then
    return run_on_actor(getactors()[1], game:HttpGet('https://github.com/uq6/123123/raw/refs/heads/main/pf'))
 end
